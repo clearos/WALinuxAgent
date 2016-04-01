@@ -1,3 +1,8 @@
+WALinuxAgent-2.0.15.tar.gz
+
+Makefile
+*.src.rpm
+
 waagentc
 *.py[cod]*
 

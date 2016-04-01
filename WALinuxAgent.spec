@@ -8,12 +8,12 @@
 
 Name:           WALinuxAgent
 Summary:        The Azure Linux Agent
-Version:        %{_agentversion}
+Version:        2.0.15
 Release:        1
 License:        Apache License Version 2.0
 Group:          System/Daemons
 Url:            http://go.microsoft.com/fwlink/?LinkId=250998
-Source0:        WALinuxAgent-%{_agentversion}.tar.gz
+Source0:        WALinuxAgent-%{version}.tar.gz
 Requires:       python python-pyasn1 openssh openssl util-linux sed grep sudo iptables parted
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
